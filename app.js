@@ -1,7 +1,7 @@
-const poke_container = document.querySelector('.poke-container')
-const search = document.querySelector('.search')
-const searchInput = document.querySelector('.searchInput')
-const searchBtn = document.querySelector('.searchBtn')
+const poke_container = document.querySelector('.poke-container');
+const search = document.querySelector('.search');
+const searchInput = document.querySelector('.searchInput');
+const searchBtn = document.querySelector('.searchBtn');
 
 const pokemon_count = 151
 
@@ -96,4 +96,4 @@ const createPokemonCard = (pokemon) => {
   poke_container.appendChild(pokemonDiv)
 }
 
-fetchPokemons()
+fetchPokemons();
